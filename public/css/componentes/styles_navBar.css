@@ -1,18 +1,20 @@
-@media (min-width: 320px){
 .conteiner-header {
-    display: flex;
-    z-index: 12;
-    align-items: center;
-    width: 100vw;
-    background: #24303c;
-    color: #ebebd3;
-    padding: 0.7em 0em;
-    position: fixed;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    font-family: "Roboto", sans-serif;
-    top: 0;
-  }
+  display: flex;
+  z-index: 12;
+  align-items: center;
+  width: 100%;
+  background: #24303c;
+  color: #ebebd3;
+  padding: 0.7em 0em;
+  position: fixed;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  top: 0;
+  left: 0;
+}
+@media (min-width: 320px){
+
   
   .menu-toggle {
     padding: 1em 1em;
@@ -128,7 +130,7 @@
 
     /* --------------------------------  NAVBAR  ------------------------------- */
       
-      .conteiner-header {
+      /*.conteiner-header {
         display: flex;
         z-index: 12;
         align-items: center;
@@ -140,7 +142,7 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         font-family: "Roboto", sans-serif;
-      }
+      }*/
       
       .menu-toggle {
         padding: 1em 1em;
